@@ -1,0 +1,12 @@
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.csprojAssemblyReference.cache
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.MainForm.resources
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.Properties.Resources.resources
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.csproj.GenerateResource.cache
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.csproj.CoreCompileInputs.cache
+D:\мдк девятко\мои\лаб19\лаб19\bin\Debug\лаб19.exe.config
+D:\мдк девятко\мои\лаб19\лаб19\bin\Debug\лаб19.exe
+D:\мдк девятко\мои\лаб19\лаб19\bin\Debug\лаб19.pdb
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.exe
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.pdb
+D:\мдк девятко\мои\лаб19\лаб19\obj\Debug\лаб19.DisplayForm.resources
+D:\мдк девятко\мои\лаб19\лаб19\bin\Debug\лаб19.xml

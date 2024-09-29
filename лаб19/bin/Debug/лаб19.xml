@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>лаб19</name>
+    </assembly>
+    <members>
+        <member name="F:лаб19.DisplayForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:лаб19.DisplayForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:лаб19.DisplayForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:лаб19.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:лаб19.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:лаб19.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:лаб19.PatientDatabase">
+            <summary>
+            Статический класс для управления базой данных пациентов.
+            </summary>
+        </member>
+        <member name="F:лаб19.PatientDatabase.FilePath">
+            <summary>
+            Путь к файлу, в котором хранятся данные пациентов.
+            </summary>
+        </member>
+        <member name="M:лаб19.PatientDatabase.AddPatient(лаб19.Patient,System.String)">
+            <summary>
+            Добавляет нового пациента в базу данных.
+            </summary>
+            <param name="patient">Объект Patient, представляющий нового пациента.</param>
+            <param name="filePath">Необязательный параметр, указывающий путь к файлу базы данных. Если не указан, используется путь по умолчанию.</param>
+        </member>
+        <member name="M:лаб19.PatientDatabase.LoadPatients(System.String)">
+            <summary>
+            Загружает список пациентов из файла.
+            </summary>
+            <param name="filePath">Необязательный параметр, указывающий путь к файлу базы данных. Если не указан, используется путь по умолчанию.</param>
+            <returns>Список объектов Patient.</returns>
+        </member>
+        <member name="M:лаб19.PatientDatabase.SavePatients(System.Collections.Generic.List{лаб19.Patient},System.String)">
+            <summary>
+            Сохраняет список пациентов в файл.
+            </summary>
+            <param name="patients">Список объектов Patient для сохранения.</param>
+            <param name="filePath">Необязательный параметр, указывающий путь к файлу базы данных. Если не указан, используется путь по умолчанию.</param>
+        </member>
+        <member name="M:лаб19.PatientDatabase.UpdatePatient(System.String,лаб19.Patient,System.String)">
+            <summary>
+            Обновляет данные пациента в базе данных.
+            </summary>
+            <param name="fullName">Полное имя пациента, данные которого нужно обновить.</param>
+            <param name="updatedPatient">Объект Patient с обновленными данными.</param>
+            <param name="filePath">Необязательный параметр, указывающий путь к файлу базы данных. Если не указан, используется путь по умолчанию.</param>
+        </member>
+        <member name="M:лаб19.PatientDatabase.SearchPatients(System.String,System.String)">
+            <summary>
+            Выполняет поиск пациентов по заданному запросу.
+            </summary>
+            <param name="query">Строка для поиска по полному имени пациентов.</param>
+            <param name="filePath">Необязательный параметр, указывающий путь к файлу базы данных. Если не указан, используется путь по умолчанию.</param>
+            <returns>Список объектов Patient, удовлетворяющих критериям поиска.</returns>
+        </member>
+        <member name="M:лаб19.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:лаб19.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:лаб19.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:лаб19.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
